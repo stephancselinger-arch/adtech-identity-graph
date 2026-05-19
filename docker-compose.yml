@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  identity-graph:
+    build: .
+    ports:
+      - "8005:8005"
+    environment:
+      - ENV=development
+    volumes:
+      - .:/app
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8005 --reload
