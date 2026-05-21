@@ -164,3 +164,5 @@ pytest tests/ -v
 - **FastAPI** — async REST
 - **Pydantic v2** — identity model validation
 - Python 3.12+
+
+<!-- Last updated: 2026-05-21 -->
