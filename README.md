@@ -166,3 +166,5 @@ pytest tests/ -v
 - Python 3.12+
 
 <!-- Last updated: 2026-05-21 -->
+
+<!-- Last updated: 2026-05-23 -->
